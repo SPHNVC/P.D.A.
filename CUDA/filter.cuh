@@ -28,10 +28,7 @@ public:
 	*/
 	double sobel_filter_gpu(const uchar * input, uchar * output, const uint height, const uint width);
 
-	void sobel_filter_cpu(const uchar * input, uchar * output, const uint height, const uint width);
-
-	/* Determines the percentage of how many pixels are wrong between the CPU and GPU version. */
-	double sobel_filter_verify_errors(const uchar * data, const uchar * compare, const uint width, const uint height);
+	
 
 	/* Flatten 2D array indices into 1D. */
 	inline int get_array_index(const int x, const int y, const int width) {
