@@ -1,5 +1,5 @@
 #include "filter.cuh"
-#include <cuda.h>
+
 
 using namespace std;
 
